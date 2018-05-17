@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home</title>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no" />
+<link rel="icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/w3.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/script.js"></script> 
+<script src="js/superfish.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/tmStickUp.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script>
+ $(window).load(function(){
+  $().UItoTop({ easingType: 'easeOutQuart' });
+  $('#stuck_container').tmStickUp({});  
+ }); 
+</script>
+<!--[if lt IE 8]>
+ <div style=' clear: both; text-align:center; position: relative;'>
+   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+   </a>
+</div>
+<![endif]-->
+<!--[if lt IE 9]>
+<script src="js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="css/ie.css">
+<![endif]-->
+</head>
+<body class="page1" id="top">
+<!--==============================
+              header
+=================================-->
+<header>
+  <section id="stuck_container">
+  <!--==============================
+              Stuck menu
+  =================================-->
+    <div class="container">
+      <div class="row">
+		
+        <div class="grid_12 ">
+		  <div class="grid_3">
+			<img src="images/wood_logo1.png"/>
+		  </div>
+          <div class="navigation">
+            <nav>
+              <ul class="sf-menu">
+               <li class="current"><a href="index.html">Home</a></li>
+               <li><a href="about.html">About</a></li>
+               <li><a href="event.html">Events</a></li>
+			   <li><a href="services.html">Courses</a></li>
+               <li><a href="contacts.html">Contacts</a></li>
+             </ul>
+            </nav>
+            <div class="clear"></div>
+          </div>       
+         <div class="clear"></div>  
+        </div>
+     </div> 
+    </div> 
+  </section>
+  <section class="page1_header">
+    <div class="container">
+      <div>
+	  <div class="w3-content w3-section slider_container">
+		<div class="mySlides" id="cont">
+			<img src="images/s1.jpg" style="width:100%; height:400px;">
+		</div>
+		<div class="mySlides" id="cont">
+			<img src="images/s2.jpg" style="width:100%; height:400px;">
+		</div>
+		<div class="mySlides" id="cont">
+			<img src="images/s3.jpg" style="width:100%; height:400px;">
+		</div>
+		<div class="mySlides" id="cont">
+			<img src="images/s4.jpg" style="width:100%; height:400px;">
+		</div>
+		<div class="mySlides" id="cont">
+			<img src="images/s5.jpg" style="width:100%; height:400px;">
+		</div>
+		<div class="mySlides" id="cont">
+			<img src="images/s6.jpg" style="width:100%; height:400px;">
+		</div>
+		<div class="mySlides" id="cont">
+			<img src="images/s7.jpg" style="width:100%; height:400px;">
+		</div>
+		<div class="mySlides" id="cont">
+			<img src="images/s8.jpg" style="width:100%; height:400px;">
+		</div>
+		<div class="mySlides" id="cont">
+			<img src="images/s9.jpg" style="width:100%; height:400px;">
+		</div>
+		
+		
+		<div class="border_box"></div>
+	  </div>
+	  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+	  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+	 </div>
+		<script>
+		var myIndex = 0;
+		carousel();
+
+		function carousel() {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";  
+			}
+			myIndex++;
+			if (myIndex > x.length) {myIndex = 1}    
+			x[myIndex-1].style.display = "block";  
+			setTimeout(carousel, 6000); // Change image every 2 seconds
+			}
+		</script>
+		<script>
+			var slideIndex = 1;
+			showDivs(slideIndex);
+
+			function plusDivs(n) {
+			showDivs(slideIndex += n);
+			}
+
+			function showDivs(n) {
+			var i;
+			var x = document.getElementsByClassName("mySlides");
+			if (n > x.length) {slideIndex = 1}    
+			if (n < 1) {slideIndex = x.length}
+			for (i = 0; i < x.length; i++) {
+			x[i].style.display = "none";  
+			}
+			x[slideIndex-1].style.display = "block";  
+			}
+		</script>
+    </div>
+  </section>
+</header>
+<div class="block-1">
+  <div class="container">
+    <div class="row">
+      <div class="grid_3">
+        <div class="block-1_count">12</div>
+        Years of <br> Experience
+        <div class="clear"></div>
+      </div>
+      <div class="grid_3">
+        <div class="block-1_count">22</div>
+        Successful <br> Events
+        <div class="clear"></div>
+      </div>
+      <div class="grid_3">
+        For Admission<br> & support click>>>
+        <div class="clear"></div>
+      </div>
+      <div class="grid_3">
+        <div><a href="contacts.html" class="support"><img src="images/support.jpg" alt=""></a></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--=====================
+          Content
+======================-->
+<section id="content">
+  <div class="container">
+    <div class="row">
+      <div class="grid_10 preffix_1 ta__center">
+        <div class="greet">
+          <h2 class="head__1">
+            Welcome
+          </h2>
+		  <p style="text-align:justify;">SSNT(Shree Sai Niketan Trust) has now ventured out for a school for special children to reach out to the special needs of visually impaired, hearing impaired, mentally challenged, autism, cerebral palsy and multiple disabilities children</p>
+		  <p style="text-align:justify;"><font size="4" color="green">Wood apple</font> – A preparatory  school for special children aims at all round development of the kids and making them competent in the worldly affair. Along with basic education it  gives special attention to groom the children in their interest area like art, craft, music, single language learning, photography, choreography and many more. Work sheets are prepared taking care of each child’s need and area of development. It is based on 100% one to one teaching learning method.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <article class="content_gray">
+    <div class="container">
+      <div class="row">
+        <div class="grid_8">
+          <h3><font color="green">“Wood Apple as a pre-school”</font></h3>
+          <div class="block-2">
+            <img src="images/my slides/35.jpg" alt="" class="img_inner fleft1">
+            <div class="extra_wrapper">
+              
+              <p style="text-align:justify;">At such young age, life is so difficult, everyday a struggle! How their life will ever be fullest? Oh, the dreams of the parents have to let go and the things they have to give up.</p>
+			  <p style="text-align:justify;">No… Not any more….</p>
+			  <p style="text-align:justify;">“Wood Apple” as a fruit has great medicinal values for those who consume it. It’s considered as a panacea for various health hazards such as improper digestion, impure blood, respiratory issues, diabetics, kidney ailments, liver health etc. Likewise “Wood Apple as a pre-school” aims to address various issues of aspecially abled child and help them develop and nurture in a safe and simulating environment. We will identify area of interest of the special kids and introduce them to the world of knowledge.
+			      If a child is not able to concentrate on his studies, obey his parents or develop his social consciousness, it does not mean that he is bad. It only means that the faculties of brain, which helps in understanding situations, retain black and white images, memories and reproduce, are less capable at that point of time though it has the potential. It needs readjustment to work efficiently. This road to efficiency is set at “Wood Apple” class rooms.</p>
+            </div>
+			
+          </div>
+          
+        </div>
+        <div class="grid_3 preffix_1">
+          <h3><font color="green">Testimonials</font></h3>
+          <blockquote class="bq1">
+            <p style="text-align:justify;">“My son is an autistic child. But after coming here with special education and therapy services, he has begun to show immense improvement. Mostly he is showing interest in table tennis. I am so happy now..God Bless!!”</p>
+            <span>Mr. R.C Mohanty</span>
+          </blockquote>
+          <blockquote class="bq1">
+            <p style="text-align:justify;">“My Daughter is visually impaired and having other problems too. Here, each child gets individual attention for both education and extra-curricular activities. She has started learning music and braille here. ”</p>
+            <span>Mrs. Sumitra Panda</span>
+          </blockquote>
+		  <blockquote class="bq1">
+            <p style="text-align:justify;">“Amazing!! You have create an absolute safe environment. This institution is doing wonderful work.”</p>
+            <span>Mr. Rama Krishna Mallick</span>
+          </blockquote>
+        </div>
+		
+      </div>
+	  <p  style="text-align:center; font-weight:bold; color:#e93e50;"><b>LET US PUT THE WORLD WITHIN THE REACH OF SPECIALLY ABLED CHILDREN….!!</b></p>
+    </div>
+  </article>
+  <div class="container">
+    <div class="row">
+      <div class="grid_8">
+         <h4><font color="green" style ="padding-left:150px;"><b><font size="5">We are a team of :</font></b></font></h4>
+		 <div class="grid_3">
+		 <ul class="list-1">
+            <li>Special trainers</li>
+            <li>Speech therapist</li>
+            <li>Occupational therapist</li>
+		 </ul>
+         </div>
+		 <div class="grid_3">
+         <ul class="list-1">
+			<li>Psychologist</li>
+			<li>All the activity teachers</li>
+			<li>Care takers</li>
+         </ul>
+		 </div>
+      </div>
+      <div class="grid_4">
+        <h4><b><font size="5" color="green">Contact Info</font></b></h4>
+        <address>
+          <ul class="cont_address">
+            <li>Wood apple</li>
+            <li>N-3/192, I.R.C village</li>
+            <li>Bhubaneswar-751015</li>
+			<li>Odisha</li>
+          </ul>
+        </address>
+      </div>
+    </div>
+  </div>
+</section>
+<!--==============================
+              footer
+=================================-->
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="grid_12"> 
+        <div class="copyright"><span class="brand">Wood Apple</span> &copy; <span id="copyright-year"></span> 
+          <div class="sub-copy">Website designed & developed by <a href="#" rel="nofollow">Sigmatics IT Services</a></div>
+        </div>
+      </div>
+    </div>
+  </div>  
+</footer>
+<a href="#" id="toTop" class="fa fa-chevron-up"></a>
+</body>
+</html>

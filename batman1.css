@@ -1,0 +1,154 @@
+
+.service {
+	background: url("./Resources/fog.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/*background-position: top left;*/
+	padding: 500px;
+    background-position: 308px 95px;
+	background-size:300px;
+	background-attachment: scroll;
+}
+.service1 {
+	background: url("./Resources/Batm.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/*background-position: top left;*/
+	padding: 500px;
+    background-position: 1008px 0px;
+	background-size:300px;
+	background-attachment: scroll;
+
+}
+.service2 {
+	background: url("./Resources/ree.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/*background-position: top left;*/
+	padding: 500px;
+    background-position: 649px 0px;
+	background-size:300px;
+	background-attachment: scroll;
+}
+
+header{
+	background-color: #000;
+	overflow: auto;
+}
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+nav ul{
+	list-style: name;
+	padding: 0;
+	margin: 0;
+}
+.logo{
+	float: left;
+}
+nav ul li{
+	float:right;
+}
+nav ul li a{
+	color: #fff000;
+	text-decoration: none;
+	padding:20px; 
+	display:block;
+}
+
+.batmanbanner {
+	background: url("./Resources/batmanbanner.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	/*background-position: top left;*/
+	padding: 200px;
+	background-size:100%;
+	/*background-attachment: scroll;*/
+	
+}
+nav ul li a:hover{
+	border-bottom: 5px solid #fff000;
+	opacity: 0.7;
+}
+h1,p1{
+	font-family: sans-serif;
+	color: black;
+	position: absolute;
+    top: 80px;
+    right: 575px;
+    width: 700px;
+    height: -50px;
+    font-size: 40px;
+	margin: -10px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+			}
+div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid yellow;
+} 
+
+.floating-box {
+    float: left;
+    width: 500px;
+    height: 475px;
+    margin: -150px;
+    border: 3px solid yellow;
+   
+
+}
+#box1{
+	height: 500px;
+	width:300px;
+	border: 3px solid yellow;
+	float: left;
+	position: absolute;
+    top: 160px;
+    right: 900px;
+    
+   
+}
+#box2{
+	height: 500px;
+	width:300px;
+	border: 3px solid yellow;
+	float: left;
+    position: absolute;
+    top: 160px;
+    right: 560px;
+    
+}
+#box3{
+	height: 500px;
+	width:300px;
+	border: 3px solid yellow;
+	float: right;
+	position: absolute;
+    top: 160px;
+    right: 220px;
+	
+}
+h2{
+	font-family: sans-serif;
+	color: black;
+	position: absolute;
+    margin: 20px;
+     top: 185px;
+}
+p{
+	font-family: sans-serif;
+	color: black;
+	position: absolute;
+    margin: 20px;
+    top: 220px;
+}
+
+
+
